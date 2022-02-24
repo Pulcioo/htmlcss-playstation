@@ -8,11 +8,30 @@
     border: 1px solid red;
 }
 
-header,
 section{
     min-height: 300px;
 }
 
+.white{
+    color: white;
+}
+
 .w-6{
     width: 6%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.rounded-4{
+    border-radius: 40px;
+}
+
+/****** MAIN ******/
+/* section-returnal */
+#img-returnal{
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    height: 600px;
 }
