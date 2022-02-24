@@ -14,12 +14,14 @@
 <body>
     <!-- header -->
     <header>
+        <!-- logo sony -->
         <div class="container-fluid">
             <div class="row bg-dark">
                 <div class="col-12 d-flex justify-content-end p-2">
                     <img class="w-6" src="img/sony_logo.svg" alt="sony-logo">
                 </div>
             </div>
+            <!-- nav-bar left -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <img src="img/play_logo.svg" alt="play-logo" width="50" height="50">
@@ -28,19 +30,82 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Giochi</a>
-                            <a class="nav-link active" href="#">Hardware</a>
-                            <a class="nav-link active" href="#">Servizi</a>
-                            <a class="nav-link active">Novità</a>
-                            <a class="nav-link active">Fai aquisti</a>
-                            <a class="nav-link active">Supporto</a>
-                        </div>
-                        <div class="navbar-nav flex-grow-1 justify-content-end align-items-center">
-                            <a class="nav-link active">My Playstation</a>
-                            <button type="button" class="btn btn-dark rounded-pill m-2">Accedi</button>
-                            <img src="img/lens.svg" alt="search" width="30" height="30">
+                    <div class="collapse navbar-collapse" id="navbarDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="Link-1" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Giochi
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Link-1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="Link-2" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Hardware
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Link-2">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="Link-3" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Servizi
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Link-3">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="Link-4" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Novità
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Link-4">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="Link-5" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Fai acquisti
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Link-5">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="Link-6" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Supporto
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Link-6">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- nav-bar right -->
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav d-flex align-items-center">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="Link-right" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        My PlayStation
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="Link-right">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <button type="button" class="btn btn-dark rounded-pill m-2">Accedi</button>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <img src="img/lens.svg" alt="search" width="30" height="30" class="m-2">
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
