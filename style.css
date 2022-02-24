@@ -12,3 +12,7 @@ header,
 section{
     min-height: 300px;
 }
+
+.w-6{
+    width: 6%;
+}
