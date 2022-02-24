@@ -2,3 +2,13 @@
 *{
     font-family: sans-serif;
 }
+
+/* utilities */
+[class*="col"] {
+    border: 1px solid red;
+}
+
+header,
+section{
+    min-height: 300px;
+}
