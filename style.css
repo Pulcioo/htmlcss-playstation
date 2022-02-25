@@ -32,6 +32,10 @@ section{
     width: 40%;
 }
 
+.w-60{
+    width: 60%;
+}
+
 .rounded-4{
     border-radius: 40px;
 }
@@ -40,24 +44,16 @@ section{
     padding-top: 100px;
 }
 
-.p-top-50{
-    padding-top: 50px;
-}
-
-.p-top-20{
-    padding-top: 20px;
-}
-
-.p-bottom-50{
-    padding-bottom: 50px;
-}
-
 .bg_dark{
     background-color: #1f1f1f;
 }
 
 .bg_grey{
     background-color: #bebcbb;
+}
+
+.bg_blue{
+    background-color: #161c3b;
 }
 
 /****** MAIN ******/
@@ -90,3 +86,5 @@ section{
     background-color: #d9dadc;
     color: #3a6ee5;
 }
+
+/* section-now */
