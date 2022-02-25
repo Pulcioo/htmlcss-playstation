@@ -17,7 +17,7 @@ section{
 }
 
 .light-blue{
-    color: rgb(0, 153, 255);
+    color: #3a6ee5;
 }
 
 .grey{
@@ -52,6 +52,10 @@ section{
     background-color: #1f1f1f;
 }
 
+.bg_grey{
+    background-color: #bebcbb;
+}
+
 /****** MAIN ******/
 /* section-returnal */
 #img-returnal{
@@ -75,4 +79,10 @@ section{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     height: 600px;
+}
+
+/* section-plus */
+#g-button{
+    background-color: #d9dadc;
+    color: #3a6ee5;
 }
