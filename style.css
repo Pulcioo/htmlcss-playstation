@@ -16,6 +16,14 @@ section{
     color: white;
 }
 
+.light-blue{
+    color: rgb(0, 153, 255);
+}
+
+.grey{
+    color: gray;
+}
+
 .w-6{
     width: 6%;
 }
@@ -34,4 +42,14 @@ section{
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     height: 600px;
+}
+
+/* section-console */
+
+@media screen and (min-width: 768px){
+
+    .container-fluid #img-between{
+        justify-content: space-between;
+    }
+ 
 }
