@@ -36,6 +36,14 @@ section{
     border-radius: 40px;
 }
 
+.p-top-100{
+    padding-top: 100px;
+}
+
+.p-top-50{
+    padding-top: 50px;
+}
+
 /****** MAIN ******/
 /* section-returnal */
 #img-returnal{
@@ -52,4 +60,11 @@ section{
         justify-content: space-between;
     }
  
+}
+
+/* section-it-takes-two */
+#img-it-takes-two{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    height: 600px;
 }
