@@ -44,6 +44,14 @@ section{
     padding-top: 50px;
 }
 
+.p-bottom-50{
+    padding-bottom: 50px;
+}
+
+.bg_dark{
+    background-color: #1f1f1f;
+}
+
 /****** MAIN ******/
 /* section-returnal */
 #img-returnal{
