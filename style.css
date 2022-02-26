@@ -56,6 +56,14 @@ section{
     background-color: #161c3b;
 }
 
+.bg_footer{
+    background-color: #00439b;
+}
+
+.fs-small{
+    font-size: small;
+}
+
 /****** MAIN ******/
 /* section-returnal */
 #img-returnal{
@@ -87,4 +95,10 @@ section{
     color: #3a6ee5;
 }
 
-/* section-now */
+/* footer */
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+
+}
