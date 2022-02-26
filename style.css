@@ -1,13 +1,9 @@
-/* generics */
+/* GENERICS*/
 *{
     font-family: sans-serif;
 }
 
-/* utilities */
-[class*="col"] {
-    border: 1px solid red;
-}
-
+/* UTILITIES */
 section{
     min-height: 300px;
 }
@@ -44,6 +40,10 @@ section{
     padding-top: 100px;
 }
 
+.mt-6{
+    margin-top: 100px;
+}
+
 .bg_dark{
     background-color: #1f1f1f;
 }
@@ -58,6 +58,10 @@ section{
 
 .bg_footer{
     background-color: #00439b;
+}
+
+.bg_white{
+    background-color: white;
 }
 
 .fs-small{
@@ -95,10 +99,23 @@ section{
     color: #3a6ee5;
 }
 
-/* footer */
+/****** FOOTER ******/
 footer a{
     display: block;
     color: white;
     text-decoration: none;
+}
 
+/* HOOVER */
+#returnal img{
+    transition: 1s;
+}
+
+#returnal img:hover {
+	transform:translate(0,-30px);
+}
+
+#img-between img:hover{
+    opacity: 100% !important;
+    border-bottom: 3px solid blue;
 }

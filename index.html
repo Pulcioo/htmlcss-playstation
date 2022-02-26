@@ -15,14 +15,14 @@
     <!-- header -->
     <header>
         <!-- logo sony -->
-        <div class="container-fluid">
+        <div class="container-fluid fixed-top bg_white">
             <div class="row bg-dark">
                 <div class="col-12 d-flex justify-content-end p-2">
                     <img class="w-6" src="img/sony_logo.svg" alt="sony-logo">
                 </div>
             </div>
             <!-- nav-bar left -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <img src="img/play_logo.svg" alt="play-logo" width="50" height="50">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,54 +37,36 @@
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Giochi
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="Link-1">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="#" id="Link-2" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Hardware
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="Link-2">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="#" id="Link-3" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Servizi
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="Link-3">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="#" id="Link-4" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Novità
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="Link-4">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="#" id="Link-5" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Fai acquisti
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="Link-5">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="#" id="Link-6" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Supporto
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="Link-6">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                </ul>
                             </li>
                         </ul>
                         <!-- nav-bar right -->
@@ -110,12 +92,47 @@
                     </div>
                 </div>
             </nav>
+            <!-- header in display-none -->
+            <div class="row bg_white d-none">
+                <div class="col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-2 text-center">
+                            <img src="img/play-menu-ico.png" alt="play-menu-icon" class="w-50">
+                            <span class="d-block">PlayStation 5</span>
+                        </div>
+                        <div class="col-2 text-center">
+                            <img src="img/play-menu-ico.png" alt="play-menu-icon" class="w-50">
+                            <span class="d-block">PlayStation 5</span>
+                        </div>
+                        <div class="col-2 text-center">
+                            <img src="img/play-menu-ico.png" alt="play-menu-icon" class="w-50">
+                            <span class="d-block">PlayStation 5</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-4">
+                            <ul class="list-inline justify-content-center m-0">
+                                <li class="list-inline-item me-5">
+                                    <a href="#">Link Novità</a>
+                                </li>
+                                <li class="list-inline-item me-5">
+                                    <a href="#">Link Novità</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">Link Novità</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <main>
         <!-- section-returnal -->
         <section id="returnal">
-            <div class="container-fluid">
+            <div class="container-fluid mt-6">
                 <div id="img-returnal" class="row white p-5">
                     <div class="col-12 col-lg-4 d-flex flex-column justify-content-end">
                         <img src="img/returnal-hero-banner-logo.png" alt="returnal-logo" class="w-60">
@@ -127,27 +144,27 @@
                         <button type="button" class="btn btn-danger rounded-pill w-40">Aquista ora</button>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="w-100 rounded-4 p-3">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="w-100 rounded-4 p-2">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
                         <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"
-                            class="w-100 rounded-4 p-3">
+                            class="w-100 rounded-4 p-2">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="w-100 rounded-4 p-3">
-                    </div>
-                    <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"
-                            class="w-100 rounded-4 p-3">
-                    </div>
-                    <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="w-100 rounded-4 p-3">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="w-100 rounded-4 p-2">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
                         <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"
-                            class="w-100 rounded-4 p-3">
+                            class="w-100 rounded-4 p-2">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="w-100 rounded-4 p-2">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"
+                            class="w-100 rounded-4 p-2">
                     </div>
                 </div>
             </div>
@@ -187,19 +204,19 @@
                 </div>
                 <div id="img-between" class="row pb-5">
                     <div class="col-4 col-md-2">
-                        <img src="img/playstation-5-thumb.png" alt="console" class="w-100">
+                        <img src="img/playstation-5-thumb.png" alt="console" class="w-100 opacity-50">
                     </div>
                     <div class="col-4 col-md-2">
-                        <img src="img/joypad-thumb.png" alt="joypad" class="w-100">
+                        <img src="img/joypad-thumb.png" alt="joypad" class="w-100 opacity-50">
                     </div>
                     <div class="col-4 col-md-2">
-                        <img src="img/headset-thumb.png" alt="headset" class="w-100">
+                        <img src="img/headset-thumb.png" alt="headset" class="w-100 opacity-50">
                     </div>
                     <div class="col-4 col-md-2">
-                        <img src="img/remote-thumb.png" alt="remote" class="w-100">
+                        <img src="img/remote-thumb.png" alt="remote" class="w-100 opacity-50">
                     </div>
                     <div class="col-4 col-md-2">
-                        <img src="img/camera-thumb.jpg" alt="camera" class="w-100">
+                        <img src="img/camera-thumb.jpg" alt="camera" class="w-100 opacity-50">
                     </div>
                 </div>
             </div>
