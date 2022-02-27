@@ -12,6 +12,10 @@ section{
     color: white;
 }
 
+.black{
+    color: black;
+}
+
 .light-blue{
     color: #3a6ee5;
 }
@@ -33,7 +37,7 @@ section{
 }
 
 .rounded-4{
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .p-top-100{
@@ -106,16 +110,31 @@ footer a{
     text-decoration: none;
 }
 
-/* HOOVER */
-#returnal img{
+/* HOVER */
+#gallery img{
     transition: 1s;
 }
 
-#returnal img:hover {
+#gallery img:hover {
 	transform:translate(0,-30px);
+    border: 3px solid #3a6ee5;
 }
 
 #img-between img:hover{
     opacity: 100% !important;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #3a6ee5;
+}
+
+#menu a:hover{
+    color: #3a6ee5;
+    text-decoration: underline !important;
+}
+
+#menu .col-2:hover{
+    border: 3px solid gray;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
 }
