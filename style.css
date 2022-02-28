@@ -73,15 +73,27 @@ section{
 }
 
 /****** MAIN ******/
+/* navbar */
+.dropdown{
+    position: static;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+}
+
 /* section-returnal */
 #img-returnal{
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
     height: 600px;
 }
 
 /* section-console */
-
 @media screen and (min-width: 768px){
 
     .container-fluid #img-between{
@@ -94,6 +106,7 @@ section{
 #img-it-takes-two{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
+    background-position: center;
     height: 600px;
 }
 
@@ -110,7 +123,30 @@ footer a{
     text-decoration: none;
 }
 
-/* HOVER */
+/***** HOVER *****/
+/* nav hover */
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+
+#search{
+    transition: 1s;
+}
+
+#search:hover{
+    transform: scale(1.2);
+}
+
+.dropdown-menu a:hover{
+    color: #3a6ee5;
+    text-decoration: underline !important;
+}
+
+.dropdown-menu .col-2:hover{
+    border: 3px solid gray;
+}
+
+/* returnal hover */
 #gallery img{
     transition: 1s;
 }
@@ -120,20 +156,13 @@ footer a{
     border: 3px solid #3a6ee5;
 }
 
+/* console hover */
 #img-between img:hover{
     opacity: 100% !important;
     border-bottom: 3px solid #3a6ee5;
 }
 
-#menu a:hover{
-    color: #3a6ee5;
-    text-decoration: underline !important;
-}
-
-#menu .col-2:hover{
-    border: 3px solid gray;
-}
-
+/* footer hover */
 footer a:hover{
     color: white;
     text-decoration: underline;
